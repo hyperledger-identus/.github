@@ -39,7 +39,7 @@ To quickly get up and running and explore the project's capabilities:
 
 ## Project Roadmap 
 
-Are you interested in where Identus is headed? Check out the 🛣️[Project Roadmap](https://github.com/orgs/hyperledger/projects/48/) for upcoming features and planned improvements.
+Are you interested in where Identus is headed? Check out the 🛣️[Project Roadmap](https://github.com/orgs/hyperledger-identus/projects/2) for upcoming features and planned improvements.
 
 ## Repositories
 
@@ -62,7 +62,7 @@ The development of Identus relies on community input, and the project maintainer
 
  - 🪲 **Bugs:** Head to the relevant [GitHub repository](https://github.com/hyperledger-identus/hyperledger-identus/blob/main/README.md#repositories) and open an issue in the issue tracker. Detailed reports make fixing things much faster!
   
- - 📝 **Documentation mistakes:** Please report it [here](https://github.com/hyperledger-identus/identus-docs/issues). 
+ - 📝 **Documentation mistakes:** Please report it [here](https://github.com/hyperledger-identus/docs/issues). 
   
  - 💡 **Feature Requests:** Do you know how to improve Identus? Share your suggestion in an [issue](https://github.com/hyperledger-identus/hyperledger-identus/issues/new/choose), and we'll discuss how it could fit into the project's roadmap.  
 
