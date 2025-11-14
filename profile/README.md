@@ -77,9 +77,9 @@ The development of Identus relies on community input, and the project maintainer
 
  - 💬 **Discord:** Join the [server](https://discord.com/channels/905194001349627914/1230596020790886490) for discussions and community support
 
- - 📞 **Community Calls:** Get the latest updates and participate in [Identus regular calls](https://lists.hyperledger.org/g/identus/calendar)
+ - 📞 **Community Calls:** Get the latest updates and participate in [Identus regular calls](https://zoom-lfx.platform.linuxfoundation.org/meetings/identus?view=list)
 
- - 📽️ **Recordings:** Did you miss a community call? you can find recordings of previous meetings [here](https://wiki.hyperledger.org/display/Identus/Hyperledger+Identus) (Check the page tree at the left side)
+ - 📽️ **Recordings:** Did you miss a community call? you can find recordings of previous meetings [here](https://zoom-lfx.platform.linuxfoundation.org/meetings/identus?view=list)
 
  - 📧 **Mailing List:** Join the [mailing list](https://lists.hyperledger.org/g/identus)
 
