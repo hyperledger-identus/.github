@@ -79,7 +79,7 @@ The development of Identus relies on community input, and the project maintainer
 
  - 📞 **Community Calls:** Get the latest updates and participate in [Identus regular calls](https://zoom-lfx.platform.linuxfoundation.org/meetings/identus?view=list)
 
- - 📽️ **Recordings:** Did you miss a community call? you can find recordings of previous meetings [here](https://zoom-lfx.platform.linuxfoundation.org/meetings/identus?view=list)
+ - 📽️ **Recordings:** Did you miss a community call? You can find recordings of previous meetings [here](https://zoom-lfx.platform.linuxfoundation.org/meetings/identus?view=list)
 
  - 📧 **Mailing List:** Join the [mailing list](https://lists.hyperledger.org/g/identus)
 
