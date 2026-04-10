@@ -6,6 +6,11 @@ from __future__ import annotations
 Compares .gitattributes, .editorconfig, .markdownlint.yml, and .yamllint.yml
 in every repo against the templates in the .github repo.
 
+Uses prefix matching: a repo's file is considered OK if it starts with the
+canonical template content. This allows repos to append local overrides
+(e.g., ktlint rules in .editorconfig) while still enforcing the shared
+baseline.
+
 Requires: gh CLI authenticated with access to hyperledger-identus org.
 
 Usage:
@@ -83,7 +88,7 @@ def main():
             content = get_file_content(repo, filename)
             if content is None:
                 results[repo][filename] = "MISSING"
-            elif content == templates[filename]:
+            elif content.startswith(templates[filename].rstrip()):
                 results[repo][filename] = "OK"
             else:
                 results[repo][filename] = "OUTDATED"
