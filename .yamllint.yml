@@ -1,0 +1,13 @@
+---
+extends: default
+
+rules:
+  # Allow long lines (common in CI workflows and docker-compose)
+  line-length: disable
+
+  # Allow truthy values like 'on' (used in GitHub Actions triggers)
+  truthy:
+    allowed-values: ["true", "false", "yes", "no", "on"]
+
+  # Relaxed comment indentation
+  comments-indentation: disable
