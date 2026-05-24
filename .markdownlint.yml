@@ -1,17 +1,61 @@
-# markdownlint configuration
+# markdownlint configuration — canonical Identus baseline
 # https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+#
+# Repos may append additional relaxations below this baseline.
+# Rules disabled here were needed in 5+ repos during the org-wide rollout.
 
 default: true
 
 # Allow long lines (common in tables, URLs, and generated content)
 MD013: false
 
-# Allow multiple top-level headings (common in multi-section docs)
+# Allow heading increment jumps (h1 → h3)
+MD001: false
+
+# Allow duplicate headings (common in multi-section docs)
+MD024: false
+
+# Allow multiple top-level headings
 MD025: false
 
-# Allow inline HTML (needed for badges, details/summary, etc.)
+# Allow any ordered list numbering style
+MD029: false
+
+# Allow inline HTML (needed for badges, details/summary, admonitions)
 MD033: false
 
-# Allow duplicate headings in different sections
-MD024:
-  siblings_only: true
+# Allow bare URLs
+MD034: false
+
+# Allow emphasis used as headings
+MD036: false
+
+# Allow code blocks without language specifier
+MD040: false
+
+# Allow first line to not be a heading (centered logos in READMEs)
+MD041: false
+
+# Allow any heading style (atx and setext)
+MD003: false
+
+# Allow any list style (dash, asterisk, plus)
+MD004: false
+
+# Allow inconsistent list indentation
+MD005: false
+
+# Allow any list indentation
+MD007: false
+
+# Allow trailing punctuation in headings
+MD026: false
+
+# Allow link fragments that don't match headings (common with HTML anchors)
+MD051: false
+
+# Allow non-descriptive link text like "[here]"
+MD059: false
+
+# Allow compact and misaligned table styles
+MD060: false

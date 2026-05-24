@@ -1,4 +1,9 @@
 ---
+# yamllint configuration — canonical Identus baseline
+#
+# Repos may append additional relaxations or ignore patterns below.
+# Rules here were needed in 7+ repos during the org-wide rollout.
+
 extends: default
 
 rules:
@@ -11,3 +16,27 @@ rules:
 
   # Relaxed comment indentation
   comments-indentation: disable
+
+  # Don't require document start marker (---)
+  document-start: disable
+
+  # Relaxed bracket/brace spacing (common in Docker Compose port mappings)
+  brackets:
+    min-spaces-inside: 0
+    max-spaces-inside: 1
+  braces:
+    min-spaces-inside: 0
+    max-spaces-inside: 1
+
+  # Allow 1 space before inline comments
+  comments:
+    min-spaces-from-content: 1
+
+  # Relaxed indentation (k8s manifests, Helm charts use various styles)
+  indentation:
+    spaces: consistent
+    indent-sequences: whatever
+
+  # Allow trailing blank line at end of file
+  empty-lines:
+    max-end: 1
