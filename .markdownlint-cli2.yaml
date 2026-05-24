@@ -1,0 +1,12 @@
+# markdownlint-cli2 configuration — canonical Identus baseline
+# https://github.com/DavidAnson/markdownlint-cli2
+#
+# Repos should prepend this baseline and append repo-specific ignores.
+
+# Ignore patterns (common across all repos)
+ignores:
+  - ".claude/**"
+  - "**/node_modules/**"
+  - "**/target/**"
+  - "**/build/**"
+  - "CHANGELOG.md"

@@ -26,7 +26,7 @@ from pathlib import Path
 
 ORG = "hyperledger-identus"
 TEMPLATE_REPO = ".github"
-FILES = [".gitattributes", ".editorconfig", ".markdownlint.yml", ".yamllint.yml"]
+FILES = [".gitattributes", ".editorconfig", ".markdownlint.yml", ".markdownlint-cli2.yaml", ".yamllint.yml"]
 
 # Repos to skip (the template repo itself)
 SKIP_REPOS = {TEMPLATE_REPO}
