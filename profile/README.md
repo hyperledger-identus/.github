@@ -1,5 +1,6 @@
 ![Identus](../resources/images/hyperledger-identus.svg)
 ---
+
 Identus provides components to develop decentralized identity solutions that adhere to widely recognized self-sovereign identity (SSI) standards.  It offers complete DID and verifiable credential functionality and simplifies the complexities of adopting a decentralized identity solution into existing and new workflows.
 
 ## Community Projects
@@ -29,15 +30,15 @@ Identus provides components to develop decentralized identity solutions that adh
 </picture>
 </a>
 
- 
 ## Quick Start Guide and Documentation
 
 To quickly get up and running and explore the project's capabilities:
+
 - Follow the instructions in 💻 [dockerize-identus.md](https://github.com/hyperledger-identus/hyperledger-identus/blob/main/identus-docker/dockerize-identus.md) to have a local environment up and running.
 - Try the ⚡[Quick Start Guide](https://hyperledger-identus.github.io/docs/home/quick-start/) to explore the capabilities of Identus step by step.
 - Find more details about any topic you need by reading the project's 📄 [Documentation](https://hyperledger-identus.github.io/docs/).
 
-## Project Roadmap 
+## Project Roadmap
 
 Are you interested in where Identus is headed? Check out the 🛣️[Project Roadmap](https://github.com/orgs/hyperledger-identus/projects/2) for upcoming features and planned improvements.
 
@@ -48,12 +49,12 @@ Identus consists of several core components, each one with its own repository. T
 - [Cloud Agent](https://github.com/hyperledger/identus-cloud-agent/)
 - [Mediator](https://github.com/hyperledger/identus-mediator/)
 - Edge Agent SDKs:
-  - [TypeScript](https://github.com/hyperledger/identus-edge-agent-sdk-ts/) 
+  - [TypeScript](https://github.com/hyperledger/identus-edge-agent-sdk-ts/)
   - [KMP](https://github.com/hyperledger/identus-edge-agent-sdk-kmp/)
   - [Swift](https://github.com/hyperledger/identus-edge-agent-sdk-swift/)
 - [Apollo Cryptographic Library](https://github.com/hyperledger/identus-apollo/)
 - Verifiable Data Registry (VDR):
-  - [VDR system API](https://github.com/hyperledger-identus/vdr) 
+  - [VDR system API](https://github.com/hyperledger-identus/vdr)
   - [PRISM VDR](https://github.com/hyperledger-identus/prism-vdr-driver)
 - [Documentation](https://github.com/hyperledger/identus-docs/)
 
@@ -65,7 +66,7 @@ The development of Identus relies on community input, and the project maintainer
 
  - 🪲 **Bugs:** Head to the relevant [GitHub repository](https://github.com/hyperledger-identus/hyperledger-identus/blob/main/README.md#repositories) and open an issue in the issue tracker. Detailed reports make fixing things much faster!
   
- - 📝 **Documentation mistakes:** Please report it [here](https://github.com/hyperledger-identus/docs/issues). 
+ - 📝 **Documentation mistakes:** Please report it [here](https://github.com/hyperledger-identus/docs/issues).
   
  - 💡 **Feature Requests:** Do you know how to improve Identus? Share your suggestion in an [issue](https://github.com/hyperledger-identus/hyperledger-identus/issues/new/choose), and we'll discuss how it could fit into the project's roadmap.  
 
@@ -85,4 +86,4 @@ The development of Identus relies on community input, and the project maintainer
 
 ### Community projects
 
-Are you curious about what the community is building with Identus? Explore the 🌍[Community Projects](https://github.com/hyperledger-identus/hyperledger-identus/wiki/Community-Projects) to discover a variety of initiatives and tools created by developers and contributors like you. These projects showcase the versatility of Identus and can serve as inspiration or a foundation for your work. 
+Are you curious about what the community is building with Identus? Explore the 🌍[Community Projects](https://github.com/hyperledger-identus/hyperledger-identus/wiki/Community-Projects) to discover a variety of initiatives and tools created by developers and contributors like you. These projects showcase the versatility of Identus and can serve as inspiration or a foundation for your work.

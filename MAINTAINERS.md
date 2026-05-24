@@ -30,8 +30,8 @@ Maintainers are assigned the following scopes in this repository:
 | Name | GitHub ID | Scope | LFID | Discord ID | Email | Company Affiliation |
 |----- | --------- | ----- | ---- | ---------- | ----- | ------------------- |
 | Anton Baliasnikov | antonbaliasnikov | Maintainer | | | | |
-| Ahmed Moussa      | hamada147        | Maintainer | | | | |   
-| Timothy Wells      | blockchaintimothy | Maintainer |  | timw_01400 |  |  | 
+| Ahmed Moussa      | hamada147        | Maintainer | | | | |
+| Timothy Wells      | blockchaintimothy | Maintainer |  | timw_01400 |  |  |
 | Cristian Gonzalez  | cristianIOHK | Maintainer |       | chet_to            |  |  |
 | Dale Peek          | Dale-iohk | Maintainer |          | dale.doe           |  |  |
 | Bassam Riman       | CryptoKnightIOG | Maintainer |    | _                  |  |  |
@@ -47,7 +47,6 @@ Maintainers are assigned the following scopes in this repository:
 | Peter Vielhaber    | petevielhaber | Maintainer |      | petev_iog          |  |  |
 | Shota Jolbordi     | shotexa | Maintainer |            | xesus1337          |  |  |
 | Kranium Mendoza    | womfoo  | Maintainer |            | kraniumau          |  |  |
-
 
 ## The Duties of a Maintainer
 
@@ -96,7 +95,7 @@ A PR has been created to update this file and add the proposed maintainer to the
 
 ## Removing Maintainers
 
-Being a maintainer is not a status symbol or a title or indefinite. 
+Being a maintainer is not a status symbol or a title or indefinite.
 Moving the maintainer to emeritus status will occasionally be necessary and appropriate.
 The status change can occur in the following situations:
 
@@ -117,9 +116,9 @@ resignation, the Pull Request is mergeable following a maintainer PR approval. I
 - The PR is authored by or has a comment supporting the proposal from an existing maintainer or Hyperledger GitHub organization administrator.
 - The approval timeframe begins upon receipt of the PR and necessary comments.
 - The PR **MAY** be communicated on appropriate channels, including relevant community calls, chat channels, and mailing lists.
-- The PR gets merged, and the maintainer transitions to maintainer emeritus if: 
-  - The PR gets approval from the maintainer to transition, OR 
-  - Two weeks have passed since receipt of at least three (3) Maintainer PR approvals, OR 
+- The PR gets merged, and the maintainer transitions to maintainer emeritus if:
+  - The PR gets approval from the maintainer to transition, OR
+  - Two weeks have passed since receipt of at least three (3) Maintainer PR approvals, OR
   - An absolute majority of maintainers have approved the PR.
 - It may be closed if the PR does not get the requisite PR approvals.
 
